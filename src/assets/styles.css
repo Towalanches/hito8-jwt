@@ -1,0 +1,100 @@
+/* Globales */
+body {
+    text-align: center;
+    padding: 5rem 0 4rem 0;
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    margin: 0 10px 0 10px;
+}
+
+input {
+    margin: 5px;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+
+    padding: 1rem;
+}
+
+.acceso {
+    padding: 30px;
+}
+
+.registro {
+    padding: 30px;
+}
+
+.perfil {
+    padding: 30px;
+}
+
+.card {
+    max-width: 60rem;
+}
+
+
+/* Estilos para el Navbar */
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: #1e2328;
+    width: 100vw;
+    padding: 10px 20px 10px 20px;
+}
+
+.navbar a {
+    color: white;
+    transition: color 0.3s ease;
+    padding: 0.6em 1.2em;
+}
+
+.navbar a:hover {
+    color: #ffcc00;
+}
+
+.navbar a:focus {
+    color: white;
+}
+
+.navbar span {
+    color: white;
+}
+
+.navbar-collapse {
+    justify-content: space-between;
+}
+
+
+/* Estilo para el Footer */
+footer {
+    min-height: 4vh;
+}
+
+
+/* Página no encontrada */
+.not-found-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.65),
+            rgba(0, 0, 0, 0.65)),
+        url('./Pizza.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+}
